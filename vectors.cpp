@@ -16,6 +16,8 @@ int main(){
     v.push_back(30);
     v.push_back(40);
     v.push_back(50);
+     // Insert 4 at position 3 (which is before 5)
+    v.insert(v.begin() + 3, 4);
     for(int x:v){
         cout << x << " ";
     }
